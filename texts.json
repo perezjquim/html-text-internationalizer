@@ -1,0 +1,14 @@
+{
+	"pt":
+	{
+		"text-1": "Texto 1!",
+		"text-2": "Texto 2!",
+		"text-3": "Texto 3!"
+	},
+	"en":
+	{
+		"text-1": "Text 1!",
+		"text-2": "Text 2!",
+		"text-3": "Text 3!"		
+	}
+}
