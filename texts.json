@@ -5,6 +5,12 @@
 		"text-2": "Texto 2!",
 		"text-3": "Texto 3!"
 	},
+	"pt-BR":
+	{
+		"text-1": "Texto 1 BR!",
+		"text-2": "Texto 2 BR!",
+		"text-3": "Texto 3 BR!"
+	},	
 	"en":
 	{
 		"text-1": "Text 1!",

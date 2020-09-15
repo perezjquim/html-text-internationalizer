@@ -33,7 +33,17 @@
 		{
 			const sKey = sMatch.replace( '_(\'' , '' ).replace( '\')', '' )
 			const sLang = this._getLanguage()
-			return this._oConfig[ sLang ][ sKey ]
+			const sDefaultLang = Object.keys( this._oConfig )[ 0 ]
+			const sLangConfig = this._oConfig[ sLang ] || this._oConfig[ sDefaultLang ]
+
+			if( sLangConfig )
+			{
+				return sLangConfig[ sKey ]
+			}
+			else
+			{
+				return sMatch;
+			}
 		},
 
 		_getLanguage: function()
